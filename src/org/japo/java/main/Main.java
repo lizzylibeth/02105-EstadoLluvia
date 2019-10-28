@@ -20,21 +20,15 @@ package org.japo.java.main;
  * @author Elísabet Palomino
  */
 public class Main {
-    
+
     public static void main(String[] args) {
-        
-        //Manera 1
-        
-        System.out.print ("Posibilidad de lluvia: ");    //System es una clase,out es un recurso de la clase System. el punto indica el recurso.  
-        System.out.println(true);   
-        
-        //Manera 2
-        
-        //final boolean POSIBILIDADLLUVIA=true;
-        //System.out.print("Posibilidad de lluvia %b ",POSIBILIDADLLUVIA);
-             
-        
-        
+
+        //CONSTANTES
+        final boolean POSIBILIDAD_LLUVIA = true;
+
+        //Mensaje
+        System.out.printf("Posibilidad de lluvia %b ", POSIBILIDAD_LLUVIA);
+
     }//main
-    
+
 }//class
